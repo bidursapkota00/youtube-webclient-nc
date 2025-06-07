@@ -14,6 +14,11 @@ export interface Video {
   status?: "processing" | "processed";
   title?: string;
   description?: string;
+  thumbnail?: string;
+  duration?: string;
+  channelName?: string;
+  views?: number;
+  uploadTime?: string;
 }
 
 interface UploadUrlResponse {
